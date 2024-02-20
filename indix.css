@@ -1,0 +1,363 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#section0 {
+    position: relative;
+}
+
+#section0 .baner-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    opacity: .1;
+}
+
+.navbar {
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.navbar-toggler {
+    color: #ffffff;
+    background-color: #db373b;
+    font-size: 30px;
+}
+
+.navbar-logo {
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Chunk Five";
+    padding: 10px;
+    background-color: #db373b;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 12px;
+    color: #323232;
+    font-weight: bold;
+    font-family: "Helvetica";
+}
+
+/* section0 */
+
+.carousel-control-next {
+    color: #141619;
+    right: -30px;
+    font-size: 50px;
+}
+
+.carousel-control-prev {
+    color: #141619;
+    left: -30px;
+    font-size: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #141619 !important;
+    border-radius: 50% !important;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: black !important;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.carousel-indicators {
+    margin-bottom: -1rem !important;
+}
+
+#section0 .para-box {
+    z-index: 2;
+}
+
+#section0 .main-heading {
+    width: auto;
+    height: auto;
+    font-size: 48px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Chunk Five";
+    padding-top: 3rem;
+}
+
+#section0 .main-para {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Droid Serif";
+    padding-top: 1rem;
+}
+
+#section0 .img-box {
+    padding-left: 4rem;
+    letter-spacing: 2rem;
+}
+
+#section0 .img2 {
+    padding-top: 7rem;
+}
+
+#section0 .img3 {
+    padding-top: 7rem;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    #section0 .img-box {
+        padding-left: 16rem;
+        letter-spacing: 2rem;
+    }
+
+    #section0 .img2 {
+        padding-top: 2rem;
+        padding-left: 0rem;
+    }
+
+    #section0 .img3 {
+        padding-top: 2rem;
+        padding-left: 0rem;
+    }
+
+    #section0 .main-heading {
+        padding-top: 1rem;
+    }
+
+    #section0 .img1 {
+        padding-left: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    #section0 .img-box {
+        padding-left: 8rem;
+        letter-spacing: 2rem;
+    }
+
+    #section0 .img1 {
+        padding-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #section0 .img-box {
+        padding-left: 1rem;
+        letter-spacing: 2rem;
+    }
+
+    #section0 .img1 {
+        padding-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #section0 .img-box {
+        padding-left: 1rem;
+        letter-spacing: 1rem;
+    }
+
+    #section0 .main-heading {
+        font-size: 36px;
+    }
+
+    #section0 .img1 {
+        padding-left: 0rem;
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+    #section0 .img2 {
+        width: 100%;
+    }
+
+    #section0 .img3 {
+        width: 100%;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+}
+
+
+
+
+/* section2 */
+#section2 {
+    background-color: #262427;
+}
+
+#section2 .main-heading {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    line-height: 12px;
+    color: #ececec;
+    font-family: "Chunk Five";
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+#section2 .para {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+#section2 .sub-para {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+#section2 .sub-heading {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #f4fff8;
+    font-weight: 700;
+    font-family: "Droid Serif";
+    text-align: center;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.24));
+    background-color: #333333;
+    padding-top: 20px;
+}
+
+#section2 .main-para {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    font-weight: 400;
+}
+
+
+
+
+
+/* footer */
+#footer {
+    background-color: #141619;
+}
+
+#footer ul {
+    margin: 1rem 0rem !important;
+}
+
+#footer .para {
+    margin: 1rem 0rem !important;
+    font-weight: bold;
+    color: white;
+
+}
+
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul li a {
+    font-size: 18px;
+    line-height: 12px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+    #footer .para {
+        padding-left: 20rem;
+    }
+
+    #footer ul {
+        padding-left: 8rem;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #footer .para {
+        padding-left: 12rem;
+    }
+
+    #footer ul {
+        padding-left: 4rem;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #footer .para {
+        padding-left: 6rem;
+    }
+
+    #footer ul {
+        padding-left: 0rem;
+    }
+
+    #footer ul li a {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #footer .para {
+        padding-left: 1rem;
+    }
+
+    #footer ul li {}
+
+    #footer ul li a {
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    #footer ul li {
+        display: block;
+        text-align: center;
+    }
+}
